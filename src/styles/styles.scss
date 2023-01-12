@@ -1,0 +1,27 @@
+@import './base/setiing';
+@import './base/base';
+
+
+//styles-components
+
+@import './styles-components/buttons';
+@import './styles-components/links';
+@import './styles-components/input';
+
+// components
+
+
+@import '../component/main1/main1';
+@import '../component/main2/main2';
+@import '../component/carousel/carouselMain';
+@import '../component/header/header';
+@import '../component/main3/main3';
+@import '../component/whatsapp/IconoWhatsapp';
+@import '../component/footer/footer';
+@import '../component/catologo/catologo';
+@import '../component/nosotros/nosotros.scss';
+@import '../component/MenuHamburguesa/menuBurguer';
+@import '../component/Navabar/Navbar';
+
+
+

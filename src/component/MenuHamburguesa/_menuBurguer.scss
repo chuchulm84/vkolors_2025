@@ -1,0 +1,282 @@
+aside {
+  position: fixed;
+  width: auto;
+  height: 10rem;
+  background-color: #f7f7f7;
+  z-index: 1000;
+  transform: translateX(-33rem);
+  transition: all 0.5s ease-in-out;
+}
+
+aside.open {
+  transform: translateX(0);
+}
+
+.open-sidebar {
+  border: none;
+  width: 5rem;
+  height: auto;
+  font-size: 4.5rem;
+  padding: 1rem;
+  background: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.open-sidebar:hover {
+  border: none;
+  color: rgb(146, 139, 139);
+}
+
+aside ul {
+  padding: 0;
+  list-style: none;
+}
+
+aside li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.close-sidebar {
+  font-size: 1.6rem;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+
+// RESPONSIVE
+
+@media (max-width: 400.98px) {
+  aside {
+    position: fixed;
+    width: 50%;
+    height: 5rem;
+    background-color: transparent;
+    z-index: 1000;
+    transform: translateX(-30rem);
+  }
+
+  aside.open {
+    transform: translateX(0);
+  }
+
+  .open-sidebar {
+    border: none;
+    font-size: 2.1rem;
+    z-index: 1000;
+  }
+
+  .icon {
+    cursor: pointer;
+  }
+
+  .open-sidebar:hover {
+    border: none;
+  }
+
+  aside ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  aside li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .close {
+    position: absolute;
+    top: 1.5rem;
+    left: 10rem;
+  }
+
+  .close-sidebar {
+    font-size: 1.5rem;
+    padding: 0.1rem 0.1rem;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 535.98px) {
+  aside {
+    position: fixed;
+    width: 50%;
+    height: 5rem;
+    background-color: transparent;
+    z-index: 1000;
+    transform: translateX(-30rem);
+  }
+
+  aside.open {
+    transform: translateX(0);
+  }
+
+  .open-sidebar {
+    border: none;
+    width: 3.8rem;
+    height: 3.8rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .open-sidebar:hover {
+    border: none;
+    z-index: 1000;
+  }
+
+  aside ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  aside li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .close {
+    position: absolute;
+    top: 1.5rem;
+    left: 12rem;
+  }
+
+  .close-sidebar {
+    font-size: 1.5rem;
+    padding: 0.1rem 0.1rem;
+  }
+}
+
+@media screen and (min-width: 536px) and (max-width: 577.8px) {
+  aside {
+    position: fixed;
+    width: 50%;
+    height: 5rem;
+    background-color: transparent;
+    z-index: 1000;
+    transform: translateX(-30rem);
+  }
+
+  aside.open {
+    transform: translateX(0);
+  }
+
+  .open-sidebar {
+    border: none;
+    width: 3.8rem;
+    height: 3.8rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .open-sidebar:hover {
+    border: none;
+  }
+
+  aside ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  aside li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .close {
+    position: absolute;
+    top: 1.5rem;
+    left: 13rem;
+  }
+
+  .close-sidebar {
+    font-size: 2rem;
+    padding: 0.1rem 0.1rem;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 666.98px) {
+  aside {
+    position: fixed;
+    width: 50%;
+    height: 5rem;
+    background-color: transparent;
+    z-index: 1000;
+    transform: translateX(-30rem);
+  }
+
+  aside.open {
+    transform: translateX(0);
+  }
+
+  .open-sidebar {
+    border: none;
+    width: 3.8rem;
+    height: 3.8rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .open-sidebar:hover {
+    border: none;
+  }
+
+  aside ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  aside li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .close {
+    position: absolute;
+    top: 1.5rem;
+    left: 13rem;
+  }
+
+  .close-sidebar {
+    font-size: 2rem;
+    padding: 0.1rem 0.1rem;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 735px) {
+}
+
+@media screen and (min-width: 736px) and (max-width: 767px) {
+  .open-sidebar {
+    border: none;
+    width: 3.8rem;
+    height: 3.8rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1000;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 833.99px) {
+}
+
+@media screen and (min-width: 834px) and (max-width: 895.98px) {
+}
+
+@media screen and (min-width: 896px) and (max-width: 1023.98px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1239.98px) {
+}
+
+@media screen and (min-width: 1240px) and (max-width: 1379.98px) {
+}
+
+@media screen and (min-width: 1380px) and (max-width: 1450px) {
+}
