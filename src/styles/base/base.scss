@@ -17,7 +17,7 @@ img.small {
 }
 
 img.medium {
-  max-width: 30rem;
+  max-width: 15rem;
   width: 100%;
 }
 
@@ -90,6 +90,25 @@ img.large {
 }
 .mt-5 {
   margin-top: 5rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 3rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+.p-4 {
+  padding: 4rem;
+}
+
+.p-5 {
+  padding: 5rem;
 }
 
 .pt-1 {

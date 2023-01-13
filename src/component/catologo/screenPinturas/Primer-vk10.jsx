@@ -3,10 +3,10 @@ import img from "../../../image/vk10.png";
 
 export const Primervk10 = () => {
   return (
-    <div className="containerClass">
-      <div className="row top">
-        <div className="col-1 container-text">
-          <h1>Primer-VK10 </h1>
+    <div className='containerClass'>
+      <div className='row top'>
+        <div className='col-1 container-text'>
+          <h1>Primer-VK10</h1>
           <p>
             es un imprimante o fondo liquido de alta tecnología, ecológico, a
             base de agua, compuesto por resina acrílica estirenada, pigmentos y
@@ -59,9 +59,9 @@ export const Primervk10 = () => {
           </p>
         </div>
 
-        <div className="col-1 ">
-          <div className="container-image">
-            <img src={img} alt="" className="imgPinturascreen-vk10 " />
+        <div className='col-1 '>
+          <div className='container-image'>
+            <img src={img} alt='' className='imgPinturascreen-vk10 ' />
           </div>
         </div>
       </div>

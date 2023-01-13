@@ -31,73 +31,73 @@ export const Catalogo = () => {
 
   return (
     <>
-      <div className="rowCatalogo">
-        <div className="col ">
-          <div className="columna1">
-            <Menu mode="inline" openKeys={openKeys} onOpenChange={onOpenChange}>
-              <Menu.Item key="0" className="volver">
-                <Link to="/" className="volver">
+      <div className='rowCatalogo'>
+        <div className='col '>
+          <div className='columna1'>
+            <Menu mode='inline' openKeys={openKeys} onOpenChange={onOpenChange}>
+              <Menu.Item key='0' className='volver'>
+                <Link to='/' className='volver'>
                   Inicio
                 </Link>
               </Menu.Item>
               {/* <Menu.Item key="1"><Link to="/catalogo/inicio">Inicio</Link></Menu.Item> */}
 
-              <SubMenu key="sub1" title="Productos" id="pinturas">
-                <Menu.Item key="1">
-                  <Link to="/catalogo/claseA">Pintura caucho mate clase A</Link>
+              <SubMenu key='sub1' title='Productos' id='pinturas'>
+                <Menu.Item key='1'>
+                  <Link to='/catalogo/claseA'>Pintura caucho mate clase A</Link>
                 </Menu.Item>
-                <Menu.Item key="2">
-                  <Link to="/catalogo/claseB">Pintura caucho mate clase B</Link>
+                <Menu.Item key='2'>
+                  <Link to='/catalogo/claseB'>Pintura caucho mate clase B</Link>
                 </Menu.Item>
-                <Menu.Item key="3">
-                  <Link to="/catalogo/satinado">
+                <Menu.Item key='3'>
+                  <Link to='/catalogo/satinado'>
                     Pintura semi brillante satinado clase A
                   </Link>
                 </Menu.Item>
-                <Menu.Item key="4">
-                  <Link to="/catalogo/impermeabilizanteScreen">
+                <Menu.Item key='4'>
+                  <Link to='/catalogo/impermeabilizanteScreen'>
                     Pintura Impermeabilizante clase A
                   </Link>
                 </Menu.Item>
-                <Menu.Item key="5">
-                  <Link to="/catalogo/esmalte">
+                <Menu.Item key='5'>
+                  <Link to='/catalogo/esmalte'>
                     Pintura Alquidica Esmalte, brillante clase A
                   </Link>
                 </Menu.Item>
                 {/*  */}
-                <Menu.Item key="7">
-                  <Link to="/catalogo/primervk10">Primer VK-10</Link>
+                <Menu.Item key='7'>
+                  <Link to='/catalogo/primervk10'>Primer VK-10</Link>
                 </Menu.Item>
-                <Menu.Item key="8">
-                  <Link to="/catalogo/fondoherreria">
+                <Menu.Item key='8'>
+                  <Link to='/catalogo/fondoherreria'>
                     Fondo Herreria anticorrosivo
                   </Link>
                 </Menu.Item>
-                <Menu.Item key="9">
-                  <Link to="/catalogo/pastaprofesional">Pasta profesional</Link>
+                <Menu.Item key='9'>
+                  <Link to='/catalogo/pastaprofesional'>Pasta profesional</Link>
                 </Menu.Item>
               </SubMenu>
             </Menu>
           </div>
         </div>
 
-        <div className="col-2 ">
+        <div className='col-2 '>
           <IconoWhatsapp />
           <Switch>
-            <Route path="/catalogo/inicio" component={Inicio} />
+            <Route path='/catalogo/inicio' component={Inicio} />
             <Route
-              path="/catalogo/impermeabilizanteScreen"
+              path='/catalogo/impermeabilizanteScreen'
               component={PinturaImpermeabilizanteScreen}
             />
-            <Route path="/catalogo/claseA" component={ClaseAScreen} />
-            <Route path="/catalogo/claseB" component={ClaseBScreen} />
-            <Route path="/catalogo/satinado" component={Satinado} />
-            <Route path="/catalogo/esmalte" component={PinturaEsmalte} />
-            <Route path="/catalogo/esmalte/mate" component={PinturaEsmalte} />
-            <Route path="/catalogo/primervk10" component={Primervk10} />
-            <Route path="/catalogo/fondoherreria" component={FondoHerreria} />
+            <Route path='/catalogo/claseA' component={ClaseAScreen} />
+            <Route path='/catalogo/claseB' component={ClaseBScreen} />
+            <Route path='/catalogo/satinado' component={Satinado} />
+            <Route path='/catalogo/esmalte' component={PinturaEsmalte} />
+            <Route path='/catalogo/esmalte/mate' component={PinturaEsmalte} />
+            <Route path='/catalogo/primervk10' component={Primervk10} />
+            <Route path='/catalogo/fondoherreria' component={FondoHerreria} />
             <Route
-              path="/catalogo/pastaprofesional"
+              path='/catalogo/pastaprofesional'
               component={PastaProfesional}
             />
           </Switch>
