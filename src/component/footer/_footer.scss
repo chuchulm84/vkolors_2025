@@ -712,8 +712,21 @@
 
   .redContainer {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: auto;
+
+    .container-red {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .copy {
+      color: rgb(255, 255, 255) !important;
+      font-size: 1rem !important;
+      margin-top: 2rem !important;
+    }
   }
 
   .red {
@@ -739,11 +752,5 @@
 
   .what {
     color: $green;
-  }
-
-  .copy {
-    color: rgb(255, 255, 255) !important;
-    font-size: 1rem !important;
-    margin-top: 2rem !important;
   }
 }

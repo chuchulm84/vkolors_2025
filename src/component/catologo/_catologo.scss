@@ -355,12 +355,6 @@
     margin-bottom: 50px;
   }
 
-  .imagenInicio {
-    width: 100vw;
-    padding: 20px;
-    margin-top: -300px;
-  }
-
   .containerInicio {
     background: #2980b9; /* fallback for old browsers */
     background: -webkit-linear-gradient(
@@ -382,14 +376,15 @@
     align-items: center;
     justify-content: center;
 
+    .imagenInicio {
+      width: 60vw;
+      margin-top: -500px;
+    }
+
     h1 {
       text-align: center;
       font-size: 30px;
     }
-
-    // img {
-    //   width: 30vw;
-    // }
   }
 
   .ant-menu-submenu
@@ -582,11 +577,6 @@
     margin-bottom: 50px;
   }
 
-  .imagenInicio {
-    width: 55vw;
-    margin-top: -400px;
-  }
-
   .containerInicio {
     background: #2980b9; /* fallback for old browsers */
     background: -webkit-linear-gradient(
@@ -608,14 +598,15 @@
     align-items: center;
     justify-content: center;
 
-    h1 {
-      text-align: center;
-      font-size: 30px;
+    .imagenInicio {
+      width: 40vw;
+      margin-top: -50px;
     }
 
-    // img {
-    //   width: 30vw;
-    // }
+    h1 {
+      text-align: center;
+      font-size: 40px;
+    }
   }
 
   .ant-menu-submenu
@@ -1040,6 +1031,11 @@
     width: 75%;
     filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.671));
   }
+
+  // .imagenInicio {
+  //   width: 55vw;
+  //   margin-top: -100px;
+  // }
 
   .containerInicio {
     background: #2980b9; /* fallback for old browsers */
@@ -1495,11 +1491,6 @@
     filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.671));
   }
 
-  // .imagenInicio {
-  //   width: 55vw;
-  //   margin-top: -100px;
-  // }
-
   .containerInicio {
     background: #2980b9; /* fallback for old browsers */
     background: -webkit-linear-gradient(
@@ -1521,6 +1512,11 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+
+    .imagenInicio {
+      width: 28vw;
+      margin: 10px;
+    }
 
     h1 {
       font-size: 35px;
@@ -1861,7 +1857,7 @@
   .container-text {
     height: 915px;
     color: rgb(5, 5, 5);
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     padding: 10px;
   }
 
@@ -1871,6 +1867,7 @@
     color: rgb(255, 255, 255);
     background: #299cb9;
     height: 50px;
+    line-height: 1rem;
 
     padding: 1rem;
   }
@@ -1885,8 +1882,8 @@
 
   .container-text p {
     font-family: "Roboto", sans-serif;
-    line-height: 1.25rem;
-    font-size: 16px;
+    line-height: 1.125rem;
+    font-size: 13px;
   }
 
   .container-image {
