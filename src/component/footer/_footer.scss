@@ -1,122 +1,122 @@
-.container-fuid-footer {
-  // margin-top: 3rem;
-}
+// .container-fuid-footer {
+//   // margin-top: 3rem;
+// }
 
-.img__footer {
-  background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
-  background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  object-fit: cover;
-  position: relative;
-  height: 900px;
-  width: 100%;
-  backdrop-filter: blur(5px); /*El efecto de vidrio*/
-}
+// .img__footer {
+//   background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
+//   background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   object-fit: cover;
+//   position: relative;
+//   height: 900px;
+//   width: 100%;
+//   backdrop-filter: blur(5px); /*El efecto de vidrio*/
+// }
 
-// .content__footer {
-//   max-width: 80%;
+// // .content__footer {
+// //   max-width: 80%;
+// //   margin: auto;
+// // }
+
+// .seccion__footer-2 {
+//   display: flex;
+//   justify-content: space-between;
+//   color: #ffff;
+//   margin: auto;
+//   text-align: center;
+//   padding: 10rem;
+//   backdrop-filter: blur(5px); /*El efecto de vidrio*/
+// }
+
+// .map {
+//   height: 25rem;
+//   width: 45rem;
+//   border-radius: 10px;
+//   box-shadow: rgb(255, 255, 255) 0px 2px 4px,
+//     rgb(255, 255, 255) 0px 7px 13px -3px, rgb(255, 255, 255) 0px -3px 0px inset;
+// }
+
+// .seccion__footer-2 p {
+//   font-weight: 900;
+//   font-size: 1.1vw;
+//   margin: 0;
+// }
+
+// .corection {
+//   padding-bottom: 34px;
+//   font-weight: 800;
+//   font-family: sans-serif;
+// }
+
+// .corection1 {
+//   font-weight: 800;
+//   font-family: sans-serif;
+// }
+
+// // .seccion__footer-2 IMG {
+// //   margin-bottom: 15px;
+// // }
+
+// .line {
+//   width: 100%;
+//   margin: 0 auto;
+//   height: 0.1rem;
+//   background: rgb(184, 178, 178);
+// }
+
+// .container__li {
+//   display: flex;
+//   padding-top: 2rem;
+// }
+
+// .icon-footer {
+//   width: 30px;
+// }
+
+// .redContainer {
+//   display: flex;
+//   align-items: center;
 //   margin: auto;
 // }
 
-.seccion__footer-2 {
-  display: flex;
-  justify-content: space-between;
-  color: #ffff;
-  margin: auto;
-  text-align: center;
-  padding: 10rem;
-  backdrop-filter: blur(5px); /*El efecto de vidrio*/
-}
-
-.map {
-  height: 25rem;
-  width: 45rem;
-  border-radius: 10px;
-  box-shadow: rgb(255, 255, 255) 0px 2px 4px,
-    rgb(255, 255, 255) 0px 7px 13px -3px, rgb(255, 255, 255) 0px -3px 0px inset;
-}
-
-.seccion__footer-2 p {
-  font-weight: 900;
-  font-size: 1.1vw;
-  margin: 0;
-}
-
-.corection {
-  padding-bottom: 34px;
-  font-weight: 800;
-  font-family: sans-serif;
-}
-
-.corection1 {
-  font-weight: 800;
-  font-family: sans-serif;
-}
-
-// .seccion__footer-2 IMG {
-//   margin-bottom: 15px;
+// .red {
+//   display: inline-block;
+//   // border: .1rem solid rgb(153, 144, 144);
+//   margin: 0.5rem;
+//   border-radius: 50%;
 // }
 
-.line {
-  width: 100%;
-  margin: 0 auto;
-  height: 0.1rem;
-  background: rgb(184, 178, 178);
-}
+// .redes {
+//   font-size: 2rem;
+//   padding: 0.5rem;
+//   cursor: pointer;
+// }
 
-.container__li {
-  display: flex;
-  padding-top: 2rem;
-}
+// .f {
+//   color: blue;
+// }
 
-.icon-footer {
-  width: 30px;
-}
+// .ins {
+//   color: $red;
+// }
 
-.redContainer {
-  display: flex;
-  align-items: center;
-  margin: auto;
-}
+// .what {
+//   color: $green;
+// }
 
-.red {
-  display: inline-block;
-  // border: .1rem solid rgb(153, 144, 144);
-  margin: 0.5rem;
-  border-radius: 50%;
-}
-
-.redes {
-  font-size: 2rem;
-  padding: 0.5rem;
-  cursor: pointer;
-}
-
-.f {
-  color: blue;
-}
-
-.ins {
-  color: $red;
-}
-
-.what {
-  color: $green;
-}
-
-.copy {
-  color: rgb(255, 255, 255) !important;
-  font-size: 1rem !important;
-  margin-top: 2rem !important;
-}
+// .copy {
+//   color: rgb(255, 255, 255) !important;
+//   font-size: 1rem !important;
+//   margin-top: 2rem !important;
+// }
 
 // RESPONSIVE
 
-@media (max-width: 400.98px) {
+@media only screen and (max-width: 600px) {
   .container-fuid-footer {
-    max-height: 230px;
+    max-height: 290px;
   }
 
   .img__footer {
@@ -127,7 +127,7 @@
     background-position: center;
     object-fit: cover;
     position: relative;
-    height: 230px;
+    height: 290px;
     width: auto;
     backdrop-filter: blur(5px); /*El efecto de vidrio*/
   }
@@ -148,7 +148,7 @@
   }
 
   .map {
-    height: 6rem;
+    height: 10rem;
     width: 13rem;
     border-radius: 10px;
     margin-top: 25px;
@@ -241,13 +241,13 @@
   }
 
   .container-text-footer {
-    margin-top: 10px;
+    // margin-top: 10px;
   }
 }
 
-@media screen and (min-width: 401px) and (max-width: 535.98px) {
+@media only screen and (min-width: 600px) {
   .container-fuid-footer {
-    max-height: 230px;
+    max-height: 420px;
   }
 
   .img__footer {
@@ -258,7 +258,7 @@
     background-position: center;
     object-fit: cover;
     position: relative;
-    height: 230px;
+    height: 420px;
     width: auto;
     backdrop-filter: blur(5px); /*El efecto de vidrio*/
   }
@@ -279,8 +279,8 @@
   }
 
   .map {
-    height: 6rem;
-    width: 13rem;
+    height: 16rem;
+    width: 25rem;
     border-radius: 10px;
     margin-top: 25px;
     margin-right: 10px;
@@ -294,6 +294,7 @@
     margin: 0;
     padding: 0;
     margin-left: 10px;
+    margin-bottom: 10px;
   }
 
   .seccion__footer-2 p {
@@ -330,7 +331,8 @@
   }
 
   .icon-footer {
-    width: 10px;
+    width: 20px;
+    margin-bottom: 10px;
   }
 
   .redContainer {
@@ -350,7 +352,7 @@
   }
 
   .redes {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     cursor: pointer;
   }
 
@@ -368,17 +370,14 @@
 
   .copy {
     color: rgb(255, 255, 255) !important;
-    font-size: 0.5rem !important;
-  }
-
-  .container-text-footer {
-    margin-top: 10px;
+    font-size: 0.8rem !important;
   }
 }
 
-@media screen and (min-width: 536px) and (max-width: 577.8px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
   .container-fuid-footer {
-    max-height: 230px;
+    max-height: 480px;
   }
 
   .img__footer {
@@ -389,7 +388,7 @@
     background-position: center;
     object-fit: cover;
     position: relative;
-    height: 230px;
+    height: 480px;
     width: auto;
     backdrop-filter: blur(5px); /*El efecto de vidrio*/
   }
@@ -407,11 +406,12 @@
     text-align: center;
     padding: 10rem;
     backdrop-filter: blur(5px); /*El efecto de vidrio*/
+    height: 350px;
   }
 
   .map {
-    height: 6rem;
-    width: 13rem;
+    height: 18rem;
+    width: 28rem;
     border-radius: 10px;
     margin-top: 25px;
     margin-right: 10px;
@@ -423,404 +423,18 @@
 
   .seccion__footer-2 {
     margin: 0;
-    padding: 0;
-    margin-left: 10px;
-  }
-
-  .seccion__footer-2 p {
-    font-weight: 900;
-    font-size: 2vw;
-    margin: 0;
-    padding: 0;
-  }
-
-  .corection {
-    padding-bottom: 34px;
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  .corection1 {
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  // .seccion__footer-2 IMG {
-  //   margin-bottom: 15px;
-  // }
-
-  .line {
-    display: none;
-  }
-
-  .container__li {
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 0;
-    margin: 0;
-  }
-
-  .icon-footer {
-    width: 10px;
-  }
-
-  .redContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-red {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .red {
-    border-radius: 50%;
-    margin-top: -20px;
-  }
-
-  .redes {
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-
-  .f {
-    color: blue;
-  }
-
-  .ins {
-    color: $red;
-  }
-
-  .what {
-    color: $green;
-  }
-
-  .copy {
-    color: rgb(255, 255, 255) !important;
-    font-size: 0.5rem !important;
-  }
-
-  .container-text-footer {
-    margin-top: 10px;
-  }
-}
-
-@media screen and (min-width: 578px) and (max-width: 666.98px) {
-}
-
-@media screen and (min-width: 667px) and (max-width: 735px) {
-}
-
-@media screen and (min-width: 736px) and (max-width: 767px) {
-}
-
-@media screen and (min-width: 768px) and (max-width: 833.99px) {
-  .container-fuid-footer {
-    max-height: 450px;
-  }
-
-  .img__footer {
-    background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    position: relative;
-    height: 450px;
-    width: auto;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  // .content__footer {
-  //   max-width: 80%;
-  //   margin: auto;
-  // }
-
-  .seccion__footer-2 {
-    display: flex;
-    justify-content: space-between;
-    color: #ffff;
-    margin: auto;
-    text-align: center;
-    padding: 10rem;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  .map {
-    height: 15rem;
-    width: 23rem;
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-right: 25px;
-
-    box-shadow: rgb(255, 255, 255) 0px 2px 4px,
-      rgb(255, 255, 255) 0px 7px 13px -3px,
-      rgb(255, 255, 255) 0px -3px 0px inset;
-  }
-
-  .seccion__footer-2 {
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-  }
-
-  .seccion__footer-2 p {
-    font-weight: 900;
-    font-size: 2vw;
-    margin: 0;
-    padding: 0;
-  }
-
-  .corection {
-    padding-bottom: 34px;
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  .corection1 {
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  // .seccion__footer-2 IMG {
-  //   margin-bottom: 15px;
-  // }
-
-  .line {
-    display: none;
-  }
-
-  .container__li {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 35px;
-  }
-
-  .icon-footer {
-    width: 18px;
-    margin-top: 20px;
-  }
-
-  .redContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-red {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .red {
-    border-radius: 50%;
-    margin-top: -20px;
-  }
-
-  .redes {
-    font-size: 1.7rem;
-    cursor: pointer;
-  }
-
-  .f {
-    color: blue;
-  }
-
-  .ins {
-    color: $red;
-  }
-
-  .what {
-    color: $green;
-  }
-
-  .copy {
-    color: rgb(255, 255, 255) !important;
-    font-size: 0.5rem !important;
-  }
-
-  .container-text-footer {
-    margin-top: 10px;
-    margin-left: 15px;
-  }
-}
-
-@media screen and (min-width: 834px) and (max-width: 895.98px) {
-  .container-fuid-footer {
-    max-height: 450px;
-  }
-
-  .img__footer {
-    background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    position: relative;
-    height: 450px;
-    width: auto;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  // .content__footer {
-  //   max-width: 80%;
-  //   margin: auto;
-  // }
-
-  .seccion__footer-2 {
-    display: flex;
-    justify-content: space-between;
-    color: #ffff;
-    margin: auto;
-    text-align: center;
-    padding: 10rem;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  .map {
-    height: 15rem;
-    width: 23rem;
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-right: 25px;
-
-    box-shadow: rgb(255, 255, 255) 0px 2px 4px,
-      rgb(255, 255, 255) 0px 7px 13px -3px,
-      rgb(255, 255, 255) 0px -3px 0px inset;
-  }
-
-  .seccion__footer-2 {
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-  }
-
-  .seccion__footer-2 p {
-    font-weight: 900;
-    font-size: 2vw;
-    margin: 0;
-    padding: 0;
-  }
-
-  .corection {
-    padding-bottom: 34px;
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  .corection1 {
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  // .seccion__footer-2 IMG {
-  //   margin-bottom: 15px;
-  // }
-
-  .line {
-    display: none;
-  }
-
-  .container__li {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 35px;
-  }
-
-  .icon-footer {
-    width: 18px;
-    margin-top: 20px;
-  }
-
-  .redContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-red {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .red {
-    border-radius: 50%;
-    margin-top: -20px;
-  }
-
-  .redes {
-    font-size: 1.7rem;
-    cursor: pointer;
-  }
-
-  .f {
-    color: blue;
-  }
-
-  .ins {
-    color: $red;
-  }
-
-  .what {
-    color: $green;
-  }
-
-  .copy {
-    color: rgb(255, 255, 255) !important;
-    font-size: 0.5rem !important;
-  }
-
-  .container-text-footer {
-    margin-top: 10px;
-    margin-left: 15px;
-  }
-}
-
-@media screen and (min-width: 896px) and (max-width: 1023.98px) {
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1239.98px) {
-  .container-fuid-footer {
-    position: relative;
-    width: 100%;
-    max-height: 100vh;
-    margin-top: 14rem;
-  }
-
-  .img__footer {
-    background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    position: relative;
-    height: 550px;
-    width: 100%;
-  }
-
-  .content__footer {
-    max-width: 80%;
-  }
-
-  .seccion__footer-2 {
-    padding: 1rem;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    text-align: center;
+    padding: 15px;
   }
 
   .seccion__footer-2 p {
     font-weight: 900;
     font-size: 1.5vw;
+    margin: 0;
+    padding: 0;
   }
 
   .corection {
+    padding-bottom: 34px;
     font-weight: 800;
     font-family: sans-serif;
   }
@@ -830,38 +444,273 @@
     font-family: sans-serif;
   }
 
-  .seccion__footer-2 IMG {
-    margin-bottom: 15px;
+  // .seccion__footer-2 IMG {
+  //   margin-bottom: 15px;
+  // }
+
+  .line {
+    display: none;
   }
+
+  .container__li {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+  }
+
+  .icon-footer {
+    width: 30px;
+    margin-bottom: 10px;
+  }
+
+  .redContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-red {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .red {
+    border-radius: 50%;
+    margin-top: -20px;
+  }
+
+  .redes {
+    font-size: 2.2rem;
+    cursor: pointer;
+  }
+
+  .f {
+    color: blue;
+  }
+
+  .ins {
+    color: $red;
+  }
+
+  .what {
+    color: $green;
+  }
+
+  .copy {
+    color: rgb(255, 255, 255) !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container-fuid-footer {
+    max-height: 480px;
+  }
+
+  .img__footer {
+    background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
+    background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    height: 480px;
+    width: auto;
+    backdrop-filter: blur(5px); /*El efecto de vidrio*/
+  }
+
+  // .content__footer {
+  //   max-width: 80%;
+  //   margin: auto;
+  // }
+
+  .seccion__footer-2 {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    margin: auto;
+    text-align: center;
+    padding: 10rem;
+    backdrop-filter: blur(5px); /*El efecto de vidrio*/
+    height: 350px;
+  }
+
+  .map {
+    height: 18rem;
+    width: 38rem;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 10px;
+
+    box-shadow: rgb(255, 255, 255) 0px 2px 4px,
+      rgb(255, 255, 255) 0px 7px 13px -3px,
+      rgb(255, 255, 255) 0px -3px 0px inset;
+  }
+
+  .seccion__footer-2 {
+    margin: 0;
+    padding: 15px;
+  }
+
+  .seccion__footer-2 p {
+    font-weight: 900;
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .corection {
+    padding-bottom: 34px;
+    font-weight: 800;
+    font-family: sans-serif;
+  }
+
+  .corection1 {
+    font-weight: 800;
+    font-family: sans-serif;
+  }
+
+  // .seccion__footer-2 IMG {
+  //   margin-bottom: 15px;
+  // }
+
+  .line {
+    display: none;
+  }
+
+  .container__li {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+  }
+
+  .icon-footer {
+    width: 30px;
+    margin-bottom: 10px;
+  }
+
+  .redContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-red {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .red {
+    border-radius: 50%;
+    margin-top: -20px;
+  }
+
+  .redes {
+    font-size: 2.2rem;
+    cursor: pointer;
+  }
+
+  .f {
+    color: blue;
+  }
+
+  .ins {
+    color: $red;
+  }
+
+  .what {
+    color: $green;
+  }
+
+  .copy {
+    color: rgb(255, 255, 255) !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .container-fuid-footer {
+    max-height: 680px;
+  }
+
+  .img__footer {
+    background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
+    background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(5px); /*El efecto de vidrio*/
+  }
+
+  .content__footer {
+    max-width: 80%;
+    margin: auto;
+    height: 50%;
+  }
+
+  .seccion__footer-2 {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    text-align: center;
+    backdrop-filter: blur(5px); /*El efecto de vidrio*/
+  }
+
+  .map {
+    height: 25rem;
+    width: 45rem;
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 2px 4px,
+      rgb(255, 255, 255) 0px 7px 13px -3px,
+      rgb(255, 255, 255) 0px -3px 0px inset;
+  }
+
+  .seccion__footer-2 p {
+    font-weight: 900;
+    font-size: 1.1vw;
+  }
+
+  .corection {
+    padding-bottom: 34px;
+    font-weight: 800;
+    font-family: sans-serif;
+  }
+
+  .corection1 {
+    font-weight: 800;
+    font-family: sans-serif;
+  }
+
+  // .seccion__footer-2 IMG {
+  //   margin-bottom: 15px;
+  // }
 
   .line {
     width: 100%;
     margin: 0 auto;
     height: 0.1rem;
     background: rgb(184, 178, 178);
-    margin-bottom: 15px;
-    margin-top: 6rem;
   }
 
   .container__li {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    padding-top: 10rem;
   }
 
   .icon-footer {
-    margin-top: 7rem;
+    margin-top: 10px;
     width: 30px;
-    height: 30px;
-  }
-
-  .icon-footer1 {
-    margin-top: 7rem;
   }
 
   .redContainer {
-    padding-bottom: 5rem;
     display: flex;
     align-items: center;
     margin: auto;
@@ -893,13 +742,8 @@
   }
 
   .copy {
-    color: rgb(22, 22, 22);
+    color: rgb(255, 255, 255) !important;
     font-size: 1rem !important;
+    margin-top: 2rem !important;
   }
-}
-
-@media screen and (min-width: 1240px) and (max-width: 1379.98px) {
-}
-
-@media screen and (min-width: 1380px) and (max-width: 1450px) {
 }

@@ -1,16 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import imgB from "../../../image/vk5.png";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 export const ClaseBScreen = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
   return (
-    <div className="containerClass" data-aos="fade-right">
-      <div className="row top">
-        <div className="col-1 container-text">
+    <div className='containerClass'>
+      <div className='row top'>
+        <div className='col-1 container-text'>
           <h1>Pintura caucho Clase B </h1>
           <p>
             La Linea Kolor Mix es la clase “B” de caucho emulsionada, de
@@ -56,9 +51,9 @@ export const ClaseBScreen = () => {
             Cuñete de 5 Galones
           </p>
         </div>
-        <div className="col-1 ">
-          <div className="container-image">
-            <img src={imgB} alt="" className=" imgPinturascreenB " />
+        <div className='col-1 '>
+          <div className='container-image'>
+            <img src={imgB} alt='' className=' imgPinturascreenB ' />
           </div>
         </div>
       </div>

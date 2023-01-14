@@ -3,9 +3,9 @@ import imgA from "../../../image/vk2.png";
 
 export const FondoHerreria = () => {
   return (
-    <div className="containerClass">
-      <div className="row top">
-        <div className="col-1 container-text">
+    <div className='containerClass'>
+      <div className='row top'>
+        <div className='col-1 container-text'>
           <h1>Fondo Herreria </h1>
           <p>
             Fondo de Herrería Vkolor, es un producto de alta calidad, alto
@@ -55,9 +55,9 @@ export const FondoHerreria = () => {
           </p>
         </div>
 
-        <div className="col-1 container-text">
-          <div className="container-image">
-            <img src={imgA} alt="" className="imgPinturascreen-iron " />
+        <div className='col-1'>
+          <div className='container-image'>
+            <img src={imgA} alt='' className='imgPinturascreen-iron ' />
           </div>
         </div>
       </div>

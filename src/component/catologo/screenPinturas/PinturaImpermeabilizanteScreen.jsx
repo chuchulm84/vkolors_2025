@@ -1,16 +1,11 @@
 import React, { useEffect } from "react";
 import img from "../../../image/vk1.png";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 export const PinturaImpermeabilizanteScreen = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
   return (
-    <div className="containerClass" data-aos="zoom-in-down">
-      <div className="row top">
-        <div className="col-1 container-text">
+    <div className='containerClass'>
+      <div className='row top'>
+        <div className='col-1 container-text'>
           <h1>Pintura Impermeabilizante </h1>
           <p>
             La Linea Imper Kolor es una pintura con propiedades flexibles que le
@@ -74,9 +69,9 @@ export const PinturaImpermeabilizanteScreen = () => {
             Cuñete de 5 Galones
           </p>
         </div>
-        <div className="col-1 container-text">
-          <div className="container-image">
-            <img src={img} alt="" className="imgPinturascreen-imper  " />
+        <div className='col-1 container-text'>
+          <div className='container-image'>
+            <img src={img} alt='' className='imgPinturascreen-imper  ' />
           </div>
         </div>
       </div>

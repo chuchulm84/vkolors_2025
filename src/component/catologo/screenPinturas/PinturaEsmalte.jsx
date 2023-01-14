@@ -1,16 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import img from "../../../image/vk9.png";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 export const PinturaEsmalte = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
   return (
-    <div className="containerClass" data-aos="zoom-in-left">
-      <div className="row top">
-        <div className="col-1 container-text">
+    <div className='containerClass'>
+      <div className='row top'>
+        <div className='col-1 container-text'>
           <h1>Pintura Esmalte </h1>
           <p>
             La Linea Kolor Satinado es la clase “A” de pintura Satinada, de
@@ -50,9 +45,9 @@ export const PinturaEsmalte = () => {
           <h3>Secado para repintado</h3>
           <p>4 horas.</p>
         </div>
-        <div className="col-1">
-          <div className="container-image">
-            <img src={img} alt="" className=" imgPinturascreen-esmalte " />
+        <div className='col-1'>
+          <div className='container-image'>
+            <img src={img} alt='' className=' imgPinturascreen-esmalte ' />
           </div>
         </div>
       </div>
