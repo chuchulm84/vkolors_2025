@@ -13,7 +13,7 @@ function App() {
     <>
       <header>
         <Header />
-        <IconoWhatsapp />
+        {/* <IconoWhatsapp /> */}
       </header>
 
       <main>

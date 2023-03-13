@@ -84,7 +84,6 @@ export const Catalogo = () => {
         </div>
 
         <div className='col-2 '>
-          <IconoWhatsapp />
           <Switch>
             <Route path='/catalogo/inicio' component={Inicio} />
             <Route
