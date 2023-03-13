@@ -1,19 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img1 from "../../image/logo02.png";
 
 export const Nosotros = () => {
   return (
     <>
-      <div className="containerNosotros">
+      <div className='containerNosotros'>
         <div>
-          <Link to="/">
-            <button className="linkNosotros">Inicio</button>
+          <Link to='/'>
+            <button className='linkNosotros'>Inicio</button>
           </Link>
         </div>
 
-        <img src={img1} alt="" />
-        <div className="containerText">
+        <img src='/images/logo02.png' alt='' />
+        <div className='containerText'>
           <h1>
             En Pinturas Vkolor de Venezuela sabemos que son tiempos de
             verdaderos retos y en el sector industrial hemos cumplido con ser

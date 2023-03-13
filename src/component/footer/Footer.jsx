@@ -1,27 +1,24 @@
 import React from "react";
-import tlf from "../../image/phone.svg";
-import direct from "../../image/location.svg";
-import email from "../../image/mail.svg";
 
 export const Footer = () => {
   return (
     <div className='container-fuid-footer img__footer'>
       <div className='content__footer '>
         <div className='seccion__footer-2'>
-          <div className=''>
+          <div className='constainter-text'>
             <div className='mt-1'>
-              <img src={tlf} alt='' className='icon-footer ' />
+              <img src='/images/location.svg' alt='' className='icon-footer' />
+              <p className=''>Esquina miracielos a Hospital</p>
+              <p className=''>EDIF: Sur 2 Local 14 Caracas Venezuela.</p>
+            </div>
+            <div className='mt-1'>
+              <img src='/images/phone.svg' alt='' className='icon-footer ' />
               <p className=''> 0424-2015915</p>
             </div>
 
             <div className='mt-1'>
-              <img src={email} alt='' className='icon-footer' />
+              <img src='/images/mail.svg' alt='' className='icon-footer' />
               <p className=''>francis@vkolor.com</p>
-            </div>
-            <div className='mt-1'>
-              <img src={direct} alt='' className='icon-footer' />
-              <p className=''>Esquina miracielos a Hospital</p>
-              <p className=''>EDIF: Sur 2 Local 14 Caracas Venezuela.</p>
             </div>
           </div>
           <div className='container-map'>

@@ -1,16 +1,15 @@
 import React from "react";
-import imgB from "../../../image/vk5.png";
 
 export const ClaseBScreen = () => {
   return (
     <div className='containerClass'>
       <div className='row top'>
         <div className='col-1 container-text'>
-          <h1>Pintura caucho Clase B </h1>
+          <h1>Pintura caucho Clase A </h1>
           <p>
-            La Linea Kolor Mix es la clase “B” de caucho emulsionada, de
-            Pinturas VKOLOR, formulada con materias primas de la más alta
-            calidad, para brindar buen cubrimiento y durabilidad.
+            La Linea Kolor Mix es la clase A de caucho emulsionada, de Pinturas
+            VKOLOR, formulada con materias primas de la más alta calidad, para
+            brindar buen cubrimiento y durabilidad.
           </p>
 
           <h3>Componentes principales</h3>
@@ -47,13 +46,11 @@ export const ClaseBScreen = () => {
           <p>
             Galón <br />
             Cuñete de 4 Galones
-            <br />
-            Cuñete de 5 Galones
           </p>
         </div>
         <div className='col-1 '>
           <div className='container-image'>
-            <img src={imgB} alt='' className=' imgPinturascreenB ' />
+            <img src='/images/vk5.png' alt='' className=' imgPinturascreenB ' />
           </div>
         </div>
       </div>

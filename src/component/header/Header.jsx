@@ -1,8 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import logo from "../../image/logo02.png";
-import logo1 from "../../image/logo01.png";
-import imgHeader from "../../image/v9.jpg";
+import React, { useEffect } from "react";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { NavBar } from "../Navabar/NavBar";
@@ -13,14 +10,14 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className="hero">
-      <img src={imgHeader} alt="" className="img__header" />
+    <header className='hero'>
+      <img src='/images/v9.jpg' alt='' className='img__header' />
 
       <NavBar />
 
-      <section className=" hero__main">
-        <h1 className="">
-          Le damos <span className="title--active">Color a tus ideas</span>
+      <section className=' hero__main'>
+        <h1 className=''>
+          Le damos <span className='title--active'>Color a tus ideas</span>
         </h1>
       </section>
     </header>

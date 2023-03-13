@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import img from "../../../image/vk1.png";
 
 export const PinturaImpermeabilizanteScreen = () => {
   return (
@@ -65,13 +64,15 @@ export const PinturaImpermeabilizanteScreen = () => {
           <p>
             Galón <br />
             Cuñete de 4 Galones
-            <br />
-            Cuñete de 5 Galones
           </p>
         </div>
         <div className='col-1 container-text'>
           <div className='container-image'>
-            <img src={img} alt='' className='imgPinturascreen-imper  ' />
+            <img
+              src='/images/vk1.png'
+              alt=''
+              className='imgPinturascreen-imper  '
+            />
           </div>
         </div>
       </div>

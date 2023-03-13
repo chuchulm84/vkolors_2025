@@ -1,5 +1,4 @@
 import React from "react";
-import imgA from "../../../image/vk2.png";
 
 export const FondoHerreria = () => {
   return (
@@ -57,7 +56,11 @@ export const FondoHerreria = () => {
 
         <div className='col-1'>
           <div className='container-image'>
-            <img src={imgA} alt='' className='imgPinturascreen-iron ' />
+            <img
+              src='/images/vk2.png'
+              alt=''
+              className='imgPinturascreen-iron '
+            />
           </div>
         </div>
       </div>

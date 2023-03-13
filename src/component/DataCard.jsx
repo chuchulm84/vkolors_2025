@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      name: "Pintura Clase A",
+      name: "Pintura Clase A plus",
       link: "/catalogo/claseA",
       category: "Pintura",
       image: "/images/vk4.png",
@@ -30,14 +30,14 @@ const data = {
     },
 
     {
-      name: "Pintura Clase B",
+      name: "Pintura Clase A",
       link: "/catalogo/claseB",
       category: "Pintura",
       image: "/images/vk5.png",
       price: 15,
       brand: "Vkolors",
       description:
-        " La Linea Kolor Mix es la clase “B” de caucho emulsionada, de Pinturas VKOLOR, formulada con materias primas de la más alta calidad, para brindar buen cubrimiento y durabilidad.",
+        " La Linea Kolor Mix es la clase “A” de caucho emulsionada, de Pinturas VKOLOR, formulada con materias primas de la más alta calidad, para brindar buen cubrimiento y durabilidad.",
       ComponentesPrincipales:
         "Pintura formulada a base de dispersión Acrovinílica, espesada con ésteres de celulosa, utilizando como carga principal Carbonato de Calcio y Bioxido de Titanio y estabilizantes de reología.",
       Rendimiento:

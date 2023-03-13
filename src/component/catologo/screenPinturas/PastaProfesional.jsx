@@ -1,11 +1,10 @@
 import React from "react";
-import imgA from "../../../image/vk3.png";
 
 export const PastaProfesional = () => {
   return (
-    <div className="containerClass">
-      <div className="row top">
-        <div className="col-1 container-text">
+    <div className='containerClass'>
+      <div className='row top'>
+        <div className='col-1 container-text'>
           <h1>Pasta profesional </h1>
           <p>
             La Linea Pasta Kolor es la pasta profesional a base de agua con
@@ -50,18 +49,21 @@ export const PastaProfesional = () => {
           <p>4 horas.</p>
           <h3>Presentación</h3>
           <p>
-            1/4 Galón Galón <br />
+            Galón <br />
+            1/4 Galón <br />
             Cuñete de 4 Galones
-            <br />
-            Cuñete de 5 Galones
           </p>
           <h3>Secado para aplicar pintura</h3>
           <p>24 horas.</p>
         </div>
 
-        <div className="col-1  container-text">
-          <div className="container-image">
-            <img src={imgA} alt="" className="imgPinturascreen-pasta " />
+        <div className='col-1  container-text'>
+          <div className='container-image'>
+            <img
+              src='/images/vk3.png'
+              alt=''
+              className='imgPinturascreen-pasta '
+            />
           </div>
         </div>
       </div>

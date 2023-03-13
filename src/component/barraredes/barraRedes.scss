@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  ul {
+    margin-left: 0px;
+    width: 70%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    left: -15px;
+    z-index: 1000;
+  }
+
+  li {
+    position: relative;
+    transform: translateX(-90px);
+    background: rgba(0, 0, 0, 0.8);
+    list-style: none;
+    padding: 10px, 0;
+    margin: 8px 0;
+    transition: 0.5s;
+    width: 150px;
+    border-radius: 0 200px 200px 0;
+  }
+
+  // li:nth-child(1) {
+  //   background: #fe180d;
+  // }
+  // li:nth-child(2) {
+  //   background: #3cc706;
+  // }
+  // li:nth-child(3) {
+  //   background: #47b6f5;
+  // }
+
+  li:hover:nth-child(1) {
+    background: #fe180d;
+  }
+  li:hover:nth-child(2) {
+    background: #3cc706;
+  }
+  li:hover:nth-child(3) {
+    background: #47b6f5;
+  }
+
+  li:hover {
+    transform: translateX(0);
+  }
+
+  a {
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding-left: 15px;
+  }
+
+  a:hover {
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding-left: 25px;
+    // font-weight: bold;
+  }
+
+  i {
+    margin-left: 15px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: #f1ecec;
+  }
+
+  .iconBarra {
+    position: relative;
+    font-size: 25px;
+  }
+
+  .insta {
+    position: relative;
+
+    left: 21px;
+  }
+  .whatsa {
+    position: relative;
+
+    left: 21px;
+  }
+  .faceb {
+    position: relative;
+
+    left: 21px;
+  }
+}

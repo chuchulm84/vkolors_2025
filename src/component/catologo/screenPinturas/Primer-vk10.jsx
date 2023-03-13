@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../../../image/vk10.png";
 
 export const Primervk10 = () => {
   return (
@@ -61,7 +60,11 @@ export const Primervk10 = () => {
 
         <div className='col-1 '>
           <div className='container-image'>
-            <img src={img} alt='' className='imgPinturascreen-vk10 ' />
+            <img
+              src='/images/vk10.png'
+              alt=''
+              className='imgPinturascreen-vk10 '
+            />
           </div>
         </div>
       </div>

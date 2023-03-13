@@ -1,15 +1,14 @@
 import React from "react";
-import imgA from "../../../image/vk4.png";
 
 export const ClaseAScreen = () => {
   return (
     <div className='containerClass '>
       <div className='row top'>
         <div className='col-1 container-text'>
-          <h1>Pintura Clase A </h1>
+          <h1>Pintura Clase A Plus </h1>
           <p>
-            La Linea Optikolor es la clase “A” Premium de caucho emulsionada, de
-            Pinturas VKOLOR, formulada con materias primas de la más alta
+            La Linea Optikolor es la clase A plus Premium de caucho emulsionada,
+            de Pinturas VKOLOR, formulada con materias primas de la más alta
             calidad para brindar un máximo cubrimiento y durabilidad.
           </p>
 
@@ -46,8 +45,6 @@ export const ClaseAScreen = () => {
           <p>
             Galón <br />
             Cuñete de 4 Galones
-            <br />
-            Cuñete de 5 Galones
           </p>
 
           <h3>Aplicación</h3>
@@ -68,7 +65,7 @@ export const ClaseAScreen = () => {
 
         <div className='col-1'>
           <div className='container-image'>
-            <img src={imgA} alt='' className='imgPinturascreen ' />
+            <img src='/images/vk4.png' alt='' className='imgPinturascreen ' />
           </div>
         </div>
       </div>

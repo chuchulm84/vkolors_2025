@@ -44,10 +44,12 @@ export const Catalogo = () => {
 
               <SubMenu key='sub1' title='Productos' id='pinturas'>
                 <Menu.Item key='1'>
-                  <Link to='/catalogo/claseA'>Pintura caucho mate clase A</Link>
+                  <Link to='/catalogo/claseA'>
+                    Pintura caucho mate clase A Plus
+                  </Link>
                 </Menu.Item>
                 <Menu.Item key='2'>
-                  <Link to='/catalogo/claseB'>Pintura caucho mate clase B</Link>
+                  <Link to='/catalogo/claseB'>Pintura caucho mate clase A</Link>
                 </Menu.Item>
                 <Menu.Item key='3'>
                   <Link to='/catalogo/satinado'>

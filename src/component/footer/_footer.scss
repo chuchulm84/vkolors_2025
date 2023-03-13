@@ -1,756 +1,392 @@
-// .container-fuid-footer {
-//   // margin-top: 3rem;
-// }
+.container-fuid-footer {
+  // margin-top: 3rem;
+}
 
-// .img__footer {
-//   background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
-//   background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-//   background-size: 100% 100%;
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   object-fit: cover;
-//   position: relative;
-//   height: 900px;
-//   width: 100%;
-//   backdrop-filter: blur(5px); /*El efecto de vidrio*/
-// }
+.img__footer {
+  background: url(../img/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
+  background: url(../img/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  position: relative;
+  height: auto;
+  width: 100%;
+  backdrop-filter: blur(5px); /*El efecto de vidrio*/
+}
 
-// // .content__footer {
-// //   max-width: 80%;
-// //   margin: auto;
-// // }
-
-// .seccion__footer-2 {
-//   display: flex;
-//   justify-content: space-between;
-//   color: #ffff;
-//   margin: auto;
-//   text-align: center;
-//   padding: 10rem;
-//   backdrop-filter: blur(5px); /*El efecto de vidrio*/
-// }
-
-// .map {
-//   height: 25rem;
-//   width: 45rem;
-//   border-radius: 10px;
-//   box-shadow: rgb(255, 255, 255) 0px 2px 4px,
-//     rgb(255, 255, 255) 0px 7px 13px -3px, rgb(255, 255, 255) 0px -3px 0px inset;
-// }
-
-// .seccion__footer-2 p {
-//   font-weight: 900;
-//   font-size: 1.1vw;
-//   margin: 0;
-// }
-
-// .corection {
-//   padding-bottom: 34px;
-//   font-weight: 800;
-//   font-family: sans-serif;
-// }
-
-// .corection1 {
-//   font-weight: 800;
-//   font-family: sans-serif;
-// }
-
-// // .seccion__footer-2 IMG {
-// //   margin-bottom: 15px;
-// // }
-
-// .line {
-//   width: 100%;
-//   margin: 0 auto;
-//   height: 0.1rem;
-//   background: rgb(184, 178, 178);
-// }
-
-// .container__li {
-//   display: flex;
-//   padding-top: 2rem;
-// }
-
-// .icon-footer {
-//   width: 30px;
-// }
-
-// .redContainer {
-//   display: flex;
-//   align-items: center;
+// .content__footer {
+//   max-width: 80%;
 //   margin: auto;
 // }
 
-// .red {
-//   display: inline-block;
-//   // border: .1rem solid rgb(153, 144, 144);
-//   margin: 0.5rem;
-//   border-radius: 50%;
+.seccion__footer-2 {
+  width: 100vw;
+  height: 40rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #ffff;
+  margin: auto;
+  text-align: center;
+  backdrop-filter: blur(5px); /*El efecto de vidrio*/
+}
+
+.map {
+  min-height: 20vw;
+  min-width: 200px;
+  height: auto;
+  width: 40vw;
+  border-radius: 10px;
+  box-shadow: rgb(255, 255, 255) 0px 2px 4px,
+    rgb(255, 255, 255) 0px 7px 13px -3px, rgb(255, 255, 255) 0px -3px 0px inset;
+}
+
+.constainter-text {
+  min-width: 200px;
+  max-height: 350px;
+  height: 100%;
+  width: 30rem;
+}
+
+.seccion__footer-2 p {
+  line-height: 2.5rem;
+  height: auto;
+  font-weight: 900;
+  font-size: 1em;
+  margin: 0;
+}
+
+.corection {
+  padding-bottom: 34px;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+.corection1 {
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+// .seccion__footer-2 IMG {
+//   margin-bottom: 15px;
 // }
 
-// .redes {
-//   font-size: 2rem;
-//   padding: 0.5rem;
-//   cursor: pointer;
-// }
+.line {
+  width: 100%;
+  margin: 0 auto;
+  height: 0.1rem;
+  background: rgb(184, 178, 178);
+}
 
-// .f {
-//   color: blue;
-// }
+.container__li {
+  display: flex;
+}
 
-// .ins {
-//   color: $red;
-// }
+.icon-footer {
+  width: 30px;
+}
 
-// .what {
-//   color: $green;
-// }
+.redContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
 
-// .copy {
-//   color: rgb(255, 255, 255) !important;
-//   font-size: 1rem !important;
-//   margin-top: 2rem !important;
-// }
+.red {
+  display: inline-block;
+  // border: .1rem solid rgb(153, 144, 144);
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+
+.redes {
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.f {
+  color: blue;
+}
+
+.ins {
+  color: $red;
+}
+
+.what {
+  color: $green;
+}
+
+.copy {
+  color: rgb(255, 255, 255) !important;
+  font-size: 1rem !important;
+  margin-top: 2rem !important;
+}
 
 // RESPONSIVE
 
-@media only screen and (max-width: 600px) {
-  .container-fuid-footer {
-    max-height: 290px;
-  }
-
-  .img__footer {
-    background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    position: relative;
-    height: 290px;
-    width: auto;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  // .content__footer {
-  //   max-width: 80%;
-  //   margin: auto;
-  // }
-
-  .seccion__footer-2 {
-    display: flex;
-    justify-content: space-between;
-    color: #ffff;
-    margin: auto;
-    text-align: center;
-    padding: 10rem;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  .map {
-    height: 10rem;
-    width: 13rem;
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-right: 10px;
-
-    box-shadow: rgb(255, 255, 255) 0px 2px 4px,
-      rgb(255, 255, 255) 0px 7px 13px -3px,
-      rgb(255, 255, 255) 0px -3px 0px inset;
-  }
-
-  .seccion__footer-2 {
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-  }
-
-  .seccion__footer-2 p {
-    font-weight: 900;
-    font-size: 2vw;
-    margin: 0;
-    padding: 0;
-  }
-
-  .corection {
-    padding-bottom: 34px;
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  .corection1 {
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  // .seccion__footer-2 IMG {
-  //   margin-bottom: 15px;
-  // }
-
-  .line {
-    display: none;
-  }
-
-  .container__li {
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 0;
-    margin: 0;
-  }
-
-  .icon-footer {
-    width: 10px;
-  }
-
-  .redContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-red {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .red {
-    border-radius: 50%;
-    margin-top: -20px;
-  }
-
-  .redes {
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-
-  .f {
-    color: blue;
-  }
-
-  .ins {
-    color: $red;
-  }
-
-  .what {
-    color: $green;
-  }
-
-  .copy {
-    color: rgb(255, 255, 255) !important;
-    font-size: 0.5rem !important;
-  }
-
-  .container-text-footer {
-    // margin-top: 10px;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .container-fuid-footer {
-    max-height: 420px;
-  }
-
-  .img__footer {
-    background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    position: relative;
-    height: 420px;
-    width: auto;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  // .content__footer {
-  //   max-width: 80%;
-  //   margin: auto;
-  // }
-
-  .seccion__footer-2 {
-    display: flex;
-    justify-content: space-between;
-    color: #ffff;
-    margin: auto;
-    text-align: center;
-    padding: 10rem;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  .map {
-    height: 16rem;
-    width: 25rem;
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-right: 10px;
-
-    box-shadow: rgb(255, 255, 255) 0px 2px 4px,
-      rgb(255, 255, 255) 0px 7px 13px -3px,
-      rgb(255, 255, 255) 0px -3px 0px inset;
-  }
-
-  .seccion__footer-2 {
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-    margin-bottom: 10px;
-  }
-
-  .seccion__footer-2 p {
-    font-weight: 900;
-    font-size: 2vw;
-    margin: 0;
-    padding: 0;
-  }
-
-  .corection {
-    padding-bottom: 34px;
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  .corection1 {
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  // .seccion__footer-2 IMG {
-  //   margin-bottom: 15px;
-  // }
-
-  .line {
-    display: none;
-  }
-
-  .container__li {
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 0;
-    margin: 0;
-  }
-
-  .icon-footer {
-    width: 20px;
-    margin-bottom: 10px;
-  }
-
-  .redContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-red {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .red {
-    border-radius: 50%;
-    margin-top: -20px;
-  }
-
-  .redes {
-    font-size: 2.2rem;
-    cursor: pointer;
-  }
-
-  .f {
-    color: blue;
-  }
-
-  .ins {
-    color: $red;
-  }
-
-  .what {
-    color: $green;
-  }
-
-  .copy {
-    color: rgb(255, 255, 255) !important;
-    font-size: 0.8rem !important;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .container-fuid-footer {
-    max-height: 480px;
-  }
-
-  .img__footer {
-    background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    position: relative;
-    height: 480px;
-    width: auto;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  // .content__footer {
-  //   max-width: 80%;
-  //   margin: auto;
-  // }
-
-  .seccion__footer-2 {
-    display: flex;
-    justify-content: space-between;
-    color: #ffff;
-    margin: auto;
-    text-align: center;
-    padding: 10rem;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-    height: 350px;
-  }
-
-  .map {
-    height: 18rem;
-    width: 28rem;
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-right: 10px;
-
-    box-shadow: rgb(255, 255, 255) 0px 2px 4px,
-      rgb(255, 255, 255) 0px 7px 13px -3px,
-      rgb(255, 255, 255) 0px -3px 0px inset;
-  }
-
-  .seccion__footer-2 {
-    margin: 0;
-    padding: 15px;
-  }
-
-  .seccion__footer-2 p {
-    font-weight: 900;
-    font-size: 1.5vw;
-    margin: 0;
-    padding: 0;
-  }
-
-  .corection {
-    padding-bottom: 34px;
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  .corection1 {
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  // .seccion__footer-2 IMG {
-  //   margin-bottom: 15px;
-  // }
-
-  .line {
-    display: none;
-  }
-
-  .container__li {
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 0;
-    margin: 0;
-  }
-
-  .icon-footer {
-    width: 30px;
-    margin-bottom: 10px;
-  }
-
-  .redContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-red {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .red {
-    border-radius: 50%;
-    margin-top: -20px;
-  }
-
-  .redes {
-    font-size: 2.2rem;
-    cursor: pointer;
-  }
-
-  .f {
-    color: blue;
-  }
-
-  .ins {
-    color: $red;
-  }
-
-  .what {
-    color: $green;
-  }
-
-  .copy {
-    color: rgb(255, 255, 255) !important;
-    font-size: 0.8rem !important;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .container-fuid-footer {
-    max-height: 480px;
-  }
-
-  .img__footer {
-    background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    position: relative;
-    height: 480px;
-    width: auto;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  // .content__footer {
-  //   max-width: 80%;
-  //   margin: auto;
-  // }
-
-  .seccion__footer-2 {
-    display: flex;
-    justify-content: space-between;
-    color: #ffff;
-    margin: auto;
-    text-align: center;
-    padding: 10rem;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-    height: 350px;
-  }
-
-  .map {
-    height: 18rem;
-    width: 38rem;
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-right: 10px;
-
-    box-shadow: rgb(255, 255, 255) 0px 2px 4px,
-      rgb(255, 255, 255) 0px 7px 13px -3px,
-      rgb(255, 255, 255) 0px -3px 0px inset;
-  }
-
-  .seccion__footer-2 {
-    margin: 0;
-    padding: 15px;
-  }
-
-  .seccion__footer-2 p {
-    font-weight: 900;
-    font-size: 1.5vw;
-    margin: 0;
-    padding: 0;
-  }
-
-  .corection {
-    padding-bottom: 34px;
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  .corection1 {
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  // .seccion__footer-2 IMG {
-  //   margin-bottom: 15px;
-  // }
-
-  .line {
-    display: none;
-  }
-
-  .container__li {
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 0;
-    margin: 0;
-  }
-
-  .icon-footer {
-    width: 30px;
-    margin-bottom: 10px;
-  }
-
-  .redContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-red {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .red {
-    border-radius: 50%;
-    margin-top: -20px;
-  }
-
-  .redes {
-    font-size: 2.2rem;
-    cursor: pointer;
-  }
-
-  .f {
-    color: blue;
-  }
-
-  .ins {
-    color: $red;
-  }
-
-  .what {
-    color: $green;
-  }
-
-  .copy {
-    color: rgb(255, 255, 255) !important;
-    font-size: 0.8rem !important;
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-  .container-fuid-footer {
-    max-height: 680px;
-  }
-
-  .img__footer {
-    background: url(../../image/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: url(../../image/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  .content__footer {
-    max-width: 80%;
-    margin: auto;
-    height: 50%;
-  }
-
-  .seccion__footer-2 {
-    height: 50vh;
-    display: flex;
-    justify-content: space-between;
-    color: #ffff;
-    text-align: center;
-    backdrop-filter: blur(5px); /*El efecto de vidrio*/
-  }
-
-  .map {
-    height: 25rem;
-    width: 45rem;
-    border-radius: 10px;
-    box-shadow: rgb(255, 255, 255) 0px 2px 4px,
-      rgb(255, 255, 255) 0px 7px 13px -3px,
-      rgb(255, 255, 255) 0px -3px 0px inset;
-  }
-
-  .seccion__footer-2 p {
-    font-weight: 900;
-    font-size: 1.1vw;
-  }
-
-  .corection {
-    padding-bottom: 34px;
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  .corection1 {
-    font-weight: 800;
-    font-family: sans-serif;
-  }
-
-  // .seccion__footer-2 IMG {
-  //   margin-bottom: 15px;
-  // }
-
-  .line {
-    width: 100%;
-    margin: 0 auto;
-    height: 0.1rem;
-    background: rgb(184, 178, 178);
-  }
-
-  .container__li {
-    display: flex;
-    padding-top: 10rem;
-  }
-
-  .icon-footer {
-    margin-top: 10px;
-    width: 30px;
-  }
-
-  .redContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-
-    .container-red {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .copy {
-      color: rgb(255, 255, 255) !important;
-      font-size: 1rem !important;
-      margin-top: 2rem !important;
-    }
-  }
-
-  .red {
-    display: inline-block;
-    // border: .1rem solid rgb(153, 144, 144);
-    margin: 0.5rem;
-    border-radius: 50%;
-  }
-
-  .redes {
-    font-size: 2rem;
-    padding: 0.5rem;
-    cursor: pointer;
-  }
-
-  .f {
-    color: blue;
-  }
-
-  .ins {
-    color: $red;
-  }
-
-  .what {
-    color: $green;
-  }
-}
+// @media only screen and (max-width: 600px) {
+//   .container-fuid-footer {
+//     max-height: 290px;
+//   }
+
+//   .img__footer {
+//     background: url(../img/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
+//     background: url(../img/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//     background-size: 100% 100%;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     object-fit: cover;
+//     position: relative;
+//     height: 290px;
+//     width: auto;
+//     backdrop-filter: blur(5px); /*El efecto de vidrio*/
+//   }
+
+//   // .content__footer {
+//   //   max-width: 80%;
+//   //   margin: auto;
+//   // }
+
+//   .seccion__footer-2 {
+//     display: flex;
+//     justify-content: space-between;
+//     color: #ffff;
+//     margin: auto;
+//     text-align: center;
+//     padding: 10rem;
+//     backdrop-filter: blur(5px); /*El efecto de vidrio*/
+//   }
+
+//   .map {
+//     height: 10rem;
+//     width: 13rem;
+//     border-radius: 10px;
+//     margin-top: 25px;
+//     margin-right: 10px;
+
+//     box-shadow: rgb(255, 255, 255) 0px 2px 4px,
+//       rgb(255, 255, 255) 0px 7px 13px -3px,
+//       rgb(255, 255, 255) 0px -3px 0px inset;
+//   }
+
+//   .seccion__footer-2 {
+//     margin: 0;
+//     padding: 0;
+//     margin-left: 10px;
+//   }
+
+//   .seccion__footer-2 p {
+//     font-weight: 900;
+//     font-size: 2vw;
+//     margin: 0;
+//     padding: 0;
+//   }
+
+//   .corection {
+//     padding-bottom: 34px;
+//     font-weight: 800;
+//     font-family: sans-serif;
+//   }
+
+//   .corection1 {
+//     font-weight: 800;
+//     font-family: sans-serif;
+//   }
+
+//   // .seccion__footer-2 IMG {
+//   //   margin-bottom: 15px;
+//   // }
+
+//   .line {
+//     display: none;
+//   }
+
+//   .container__li {
+//     display: flex;
+//     flex-direction: column-reverse;
+//     padding: 0;
+//     margin: 0;
+//   }
+
+//   .icon-footer {
+//     width: 10px;
+//   }
+
+//   .redContainer {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+
+//   .container-red {
+//     display: flex;
+//     flex-direction: row;
+//   }
+
+//   .red {
+//     border-radius: 50%;
+//     margin-top: -20px;
+//     padding: 10px;
+//   }
+
+//   .redes {
+//     font-size: 1.2rem;
+//     cursor: pointer;
+//   }
+
+//   .f {
+//     color: blue;
+//   }
+
+//   .ins {
+//     color: $red;
+//   }
+
+//   .what {
+//     color: $green;
+//   }
+
+//   .copy {
+//     color: rgb(255, 255, 255) !important;
+//     font-size: 0.5rem !important;
+//   }
+
+//   .container-text-footer {
+//     // margin-top: 10px;
+//   }
+// }
+
+// @media only screen and (min-width: 600px) {
+//   .container-fuid-footer {
+//     max-height: 420px;
+//   }
+
+//   .img__footer {
+//     background: url(../img/v7.jpg); /* Chrome 10-25, Safari 5.1-6 */
+//     background: url(../img/v7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//     background-size: 100% 100%;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     object-fit: cover;
+//     position: relative;
+//     height: 420px;
+//     width: auto;
+//     backdrop-filter: blur(5px); /*El efecto de vidrio*/
+//   }
+
+//   // .content__footer {
+//   //   max-width: 80%;
+//   //   margin: auto;
+//   // }
+
+//   .seccion__footer-2 {
+//     display: flex;
+//     justify-content: space-between;
+//     color: #ffff;
+//     margin: auto;
+//     text-align: center;
+//     padding: 10rem;
+//     backdrop-filter: blur(5px); /*El efecto de vidrio*/
+//   }
+
+//   .map {
+//     height: 16rem;
+//     width: 25rem;
+//     border-radius: 10px;
+//     margin-top: 25px;
+//     margin-right: 10px;
+
+//     box-shadow: rgb(255, 255, 255) 0px 2px 4px,
+//       rgb(255, 255, 255) 0px 7px 13px -3px,
+//       rgb(255, 255, 255) 0px -3px 0px inset;
+//   }
+
+//   .seccion__footer-2 {
+//     margin: 0;
+//     padding: 0;
+//     margin-left: 10px;
+//     margin-bottom: 10px;
+//   }
+
+//   .seccion__footer-2 p {
+//     font-weight: 900;
+//     font-size: 2vw;
+//     margin: 0;
+//     padding: 0;
+//   }
+
+//   .corection {
+//     padding-bottom: 34px;
+//     font-weight: 800;
+//     font-family: sans-serif;
+//   }
+
+//   .corection1 {
+//     font-weight: 800;
+//     font-family: sans-serif;
+//   }
+
+//   // .seccion__footer-2 IMG {
+//   //   margin-bottom: 15px;
+//   // }
+
+//   .line {
+//     display: none;
+//   }
+
+//   .container__li {
+//     display: flex;
+//     flex-direction: column-reverse;
+//     padding: 0;
+//     margin: 0;
+//   }
+
+//   .icon-footer {
+//     width: 20px;
+//     margin-bottom: 10px;
+//   }
+
+//   .redContainer {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+
+//   .container-red {
+//     display: flex;
+//     flex-direction: row;
+//   }
+
+//   .red {
+//     border-radius: 50%;
+//     margin-top: -20px;
+//     padding: 10px;
+//   }
+
+//   .redes {
+//     font-size: 2.2rem;
+//     cursor: pointer;
+//   }
+
+//   .f {
+//     color: blue;
+//   }
+
+//   .ins {
+//     color: $red;
+//   }
+
+//   .what {
+//     color: $green;
+//   }
+
+//   .copy {
+//     color: rgb(255, 255, 255) !important;
+//     font-size: 0.8rem !important;
+//   }
+// }

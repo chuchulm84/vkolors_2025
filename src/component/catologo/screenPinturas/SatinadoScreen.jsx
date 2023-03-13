@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../../../image/vk6.png";
 
 export const Satinado = () => {
   return (
@@ -47,7 +46,11 @@ export const Satinado = () => {
         </div>
         <div className='col-1'>
           <div className='container-image'>
-            <img src={img} alt='' className=' imgPinturascreenSati' />
+            <img
+              src='/images/vk6.png'
+              alt=''
+              className=' imgPinturascreenSati'
+            />
           </div>
         </div>
       </div>
