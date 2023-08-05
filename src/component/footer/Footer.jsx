@@ -18,7 +18,7 @@ export const Footer = () => {
 
             <div className='section-text'>
               <img src='/images/mail.svg' alt='' className='icon-footer' />
-              <p className=''>francis@vkolor.com</p>
+              <p className=''>ventas@vkolor.com</p>
             </div>
           </div>
           <div className='container-map'>

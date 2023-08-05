@@ -1,24 +1,18 @@
-import React, { useEffect } from "react";
+import React from "react";
 
-import Aos from "aos";
 import "aos/dist/aos.css";
 
 export const Main2 = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   return (
     <div className='background-section-main2 '>
       <div class=' texto__main__2'>
         <div>
-          {" "}
           <h3>Fabricamos pinturas</h3>
         </div>
       </div>
 
       <div className='container__seccion-2 '>
-        <div className='' data-aos='fade-right'>
+        <div className=''>
           <p>
             En Pinturas Vkolor de Venezuela sabemos que son tiempos de
             verdaderos retos, y en el sector industrial hemos cumplido con ser
@@ -32,7 +26,7 @@ export const Main2 = () => {
           </p>
         </div>
 
-        <div className='' data-aos='fade-left'>
+        <div className=''>
           <img src='/images/v5.jpg' className='imagen__main2 ' alt='' />
         </div>
       </div>

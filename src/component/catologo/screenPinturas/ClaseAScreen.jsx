@@ -3,7 +3,7 @@ import React from "react";
 export const ClaseAScreen = () => {
   return (
     <div className='containerClass '>
-      <div className='row top'>
+      <div className='row top '>
         <div className='col-1 container-text'>
           <h1>Pintura Clase A Plus </h1>
           <p>
@@ -26,7 +26,7 @@ export const ClaseAScreen = () => {
           </p>
 
           <h3>Acabado</h3>
-          <p>Mate</p>
+          <p>Mate.</p>
 
           <h3>Secamiento al tacto</h3>
           <p>30 minutos.</p>
@@ -43,8 +43,8 @@ export const ClaseAScreen = () => {
 
           <h3>Presentación</h3>
           <p>
-            Galón <br />
-            Cuñete de 4 Galones
+            Galón. <br />
+            Cuñete de 4 Galones.
           </p>
 
           <h3>Aplicación</h3>
@@ -65,7 +65,7 @@ export const ClaseAScreen = () => {
 
         <div className='col-1'>
           <div className='container-image'>
-            <img src='/images/vk4.png' alt='' className='imgPinturascreen ' />
+            <img src='/images/vk4.png' alt='' className='imgPinturascreen' />
           </div>
         </div>
       </div>
