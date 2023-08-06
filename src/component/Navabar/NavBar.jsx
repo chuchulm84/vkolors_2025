@@ -25,7 +25,7 @@ export const NavBar = () => {
 
           <div className='links ' data-aos='fade-left'>
             <i
-              className='fa fa-bars icon  open-sidebar'
+              className='fa fa-bars   open-sidebar'
               onClick={() => setSidebarIsOpen(!siderbarIsOpen)}
             ></i>
           </div>
@@ -50,12 +50,12 @@ export const NavBar = () => {
                         <button className='link'>Nosotros</button>
                       </Link>
                     </div>
-                  </div>
-                  <div className='close'>
-                    <i
-                      className='far fa-window-close close-sidebar'
-                      onClick={() => setSidebarIsOpen(false)}
-                    ></i>
+                    <div className='close'>
+                      <i
+                        className='far fa-window-close close-sidebar'
+                        onClick={() => setSidebarIsOpen(false)}
+                      ></i>
+                    </div>
                   </div>
                 </div>
               </li>

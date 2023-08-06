@@ -33,13 +33,14 @@ header {
 }
 
 .hero__main h1 {
-  font-size: 2.7vw;
+  font-size: 2.75vw;
 }
 
 .title--active {
-  color: rgb(199, 37, 37);
+  color: rgb(255, 49, 49);
   font-weight: 900;
   text-shadow: $shadow $color_shadow;
+  filter: drop-shadow(4px 4px 10px rgba(160, 160, 160, 0.671));
 }
 
 // RESPONSIVE
