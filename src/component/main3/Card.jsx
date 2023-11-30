@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const Card = ({ name, description, image, link }) => {
-  console.log("name", name, "description", description, "image", image);
   return (
     <section className='card'>
       <h2 className='card-title'>{name}</h2>

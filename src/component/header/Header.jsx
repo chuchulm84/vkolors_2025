@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import useFetch from "../../hooks/useFetch";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { NavBar } from "../Navabar/NavBar";
@@ -8,6 +8,10 @@ export const Header = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
+
+  const { articulos, isLoading } = useFetch();
+
+  console.log("articulos", articulos);
 
   return (
     <header className='hero'>

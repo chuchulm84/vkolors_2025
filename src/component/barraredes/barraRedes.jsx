@@ -15,7 +15,7 @@ const BarraRedes = () => {
             href='https://wa.me/+584242015915/?text=%20Bienvenido%20a%20Vkolor%20tu%20mejor%20opción%20en%20pinturas'
             target='_blank'
           >
-            <i class='fab fa-whatsapp whatsa iconBarra'></i>
+            <i className='fab fa-whatsapp whatsa iconBarra'></i>
             Whatsapp
           </a>
         </li>
