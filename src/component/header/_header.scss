@@ -24,23 +24,23 @@ header {
 
 .hero__main {
   position: absolute;
-  width: 45%;
-  height: 20px;
+  width: 60%;
+  height: 50px;
   top: 39% !important;
   left: 6%;
-  height: 100px;
+  height: 35vh;
   overflow: hidden;
-}
 
-.hero__main h1 {
-  font-size: 2.75vw;
+  h1 {
+    font-size: 3vw;
+  }
 }
 
 .title--active {
-  color: rgb(255, 49, 49);
+  color: rgb(255, 0, 0);
   font-weight: 900;
   text-shadow: $shadow $color_shadow;
-  filter: drop-shadow(4px 4px 10px rgba(160, 160, 160, 0.671));
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
 }
 
 // RESPONSIVE

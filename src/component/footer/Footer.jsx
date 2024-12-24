@@ -8,8 +8,12 @@ export const Footer = () => {
           <div className='constainter-text'>
             <div className='section-text'>
               <img src='/images/location.svg' alt='' className='icon-footer' />
-              <p className=''>Esquina miracielos a Hospital</p>
-              <p className=''>EDIF: Sur 2 Local 14 Caracas Venezuela.</p>
+              <p className=''>
+                Tercera Transversal, entre Los Cármenes y Los Jabillos
+              </p>
+              <p className=''>
+                Parroquia Santa Rosalía, El Cementerio Caracas.
+              </p>
             </div>
             <div className='section-text'>
               <img src='/images/phone.svg' alt='' className='icon-footer ' />
@@ -23,12 +27,12 @@ export const Footer = () => {
           </div>
           <div className='container-map'>
             <iframe
-              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.7515902702582!2d-66.91702087081501!3d10.500164118179153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a5ed8339a6509%3A0xc5f1f9872a59d0f!2sEdificio%20Sur%202!5e0!3m2!1ses!2sve!4v1654728177050!5m2!1ses!2sve'
+              src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d245.20314864749253!2d-66.91344894720412!3d10.48091795892768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a5f373a38e04d%3A0x61942de803dc75f2!2s1040%20Trans.%203%2C%20Caracas%201040%2C%20Distrito%20Capital!5e0!3m2!1ses!2sve!4v1734486406753!5m2!1ses!2sve'
               className='map'
               allowfullscreen=''
               loading='lazy'
               referrerpolicy='no-referrer-when-downgrade'
-            />
+            ></iframe>
           </div>
         </div>
       </div>
@@ -37,7 +41,7 @@ export const Footer = () => {
       <div className='container__li '>
         <div className='redContainer '>
           <div className='copy'>
-            <p>&copy;2023 TODOS LOS DERECHOS RESERVADOS</p>
+            <p>&copy;2025 TODOS LOS DERECHOS RESERVADOS</p>
           </div>
           <div className='container-red'>
             <div className='red'>

@@ -28,23 +28,17 @@ aside.open {
   cursor: pointer;
   z-index: 1000;
   padding: 3rem;
-  background: rgb(211, 210, 210);
-  border-radius: 50%;
-  color: rgb(255, 254, 254);
+  background: rgb(228, 227, 194);
+  border-radius: 20%;
+  color: rgb(255, 255, 255);
   margin-right: 2rem;
-  box-shadow: rgba(54, 54, 54, 0.17) 0px -23px 25px 0px inset,
-    rgba(116, 115, 115, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
-    rgba(182, 182, 182, 0.06) 0px 2px 1px, rgba(22, 22, 22, 0.09) 0px 4px 2px,
-    rgba(105, 104, 104, 0.09) 0px 8px 4px, rgba(44, 43, 43, 0.09) 0px 16px 8px,
-    rgba(146, 145, 145, 0.09) 0px 32px 16px;
-
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: 1px solid rgb(255, 255, 255);
 }
 
 .open-sidebar:hover {
   border: 1px solid rgb(255, 255, 255);
-  color: rgb(103, 102, 104);
+  color: rgb(199, 199, 207);
 }
 
 aside ul {
@@ -67,7 +61,7 @@ aside ul {
 .nav__container {
   width: 100%;
   height: auto;
-  background: rgba(255, 255, 255, 0.733);
+  background: rgba(231, 231, 231, 0.733);
   position: absolute;
   top: 0;
   left: 0;
@@ -89,32 +83,38 @@ aside ul {
   align-items: center;
   flex-wrap: wrap;
   padding: 2.2rem;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   margin-top: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  border-radius: 8px;
 }
 
 .link {
   width: 10rem;
   height: 3.5rem;
-  background: rgb(5, 86, 153);
+  background: rgb(13, 179, 190);
   color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 1.2rem;
   transition-duration: 0.6s;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-radius: 5px;
-  border: 2.5px solid rgb(156, 154, 154);
   margin: 0.15rem;
 }
 
 .link:hover {
   height: 3.5rem;
-  background: #9ec8f7;
+  background: #7c96a8;
   color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 1.2rem;
   transition-duration: 0.6s;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   border-radius: 5px;
   border: 2px solid rgb(211, 206, 206);
   cursor: pointer;
@@ -141,10 +141,11 @@ aside ul {
 .close {
   .close-sidebar {
     font-size: 1.5rem;
-    color: rgb(7, 7, 7);
+    color: rgb(63, 62, 62);
     position: absolute;
     top: 0;
     right: 0;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   }
 }
 

@@ -10,7 +10,7 @@ export const Card = ({ name, description, image, link }) => {
       </div>
 
       <div style={{ height: "340px" }}>
-        <img src={image} alt='' className='medium ' />
+        <img src={image} alt='' className='image-card' />
       </div>
 
       <div className='container-button'>

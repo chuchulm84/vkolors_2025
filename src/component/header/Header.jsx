@@ -15,12 +15,13 @@ export const Header = () => {
 
   return (
     <header className='hero'>
-      <img src='/images/v9.jpg' alt='' className='img__header' />
+      <img src='/images/v23.png' alt='' className='img__header' />
 
       <NavBar />
 
       <section className=' hero__main'>
         <h1 className=''>
+          <img src='./logo01.png' alt='' width='25%' />
           Le damos <span className='title--active'>Color a tus ideas</span>
         </h1>
       </section>

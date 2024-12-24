@@ -27,7 +27,7 @@ export const Main2 = () => {
         </div>
 
         <div className=''>
-          <img src='/images/v5.jpg' className='imagen__main2 ' alt='' />
+          <img src='/images/v22.png' className='imagen__main2 ' alt='' />
         </div>
       </div>
     </div>
