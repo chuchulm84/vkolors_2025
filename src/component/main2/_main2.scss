@@ -38,12 +38,14 @@
 
 .imagen__main2 {
   max-width: 40vw;
+  min-height: 55vh;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-radius: 5px;
+  object-fit: contain;
+  border-radius: 15px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   margin: auto;
+  background-color: #f0e9c6;
 }
 
 .texto__main__2 {
