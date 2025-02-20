@@ -21,7 +21,11 @@ export const Header = () => {
 
       <section className=' hero__main'>
         <h1 className=''>
-          <img src='./logo01.png' alt='' width='25%' />
+          <img
+            src='./images/nuevo_logo_principal-removebg-preview.png'
+            alt=''
+            className='image-center'
+          />
           Le damos <span className='title--active'>Color a tus ideas</span>
         </h1>
       </section>

@@ -9,7 +9,7 @@ export const Card = ({ name, description, image, link }) => {
         <p className='card-description'>{description}</p>
       </div>
 
-      <div style={{ height: "340px" }}>
+      <div style={{ height: "300px" }}>
         <img src={image} alt='' className='image-card' />
       </div>
 

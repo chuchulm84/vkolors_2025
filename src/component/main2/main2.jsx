@@ -5,11 +5,7 @@ import "aos/dist/aos.css";
 export const Main2 = () => {
   return (
     <div className='background-section-main2 '>
-      <div class=' texto__main__2'>
-        <div>
-          <h3>Fabricamos pinturas</h3>
-        </div>
-      </div>
+      <h3>Fabricamos pinturas</h3>
 
       <div className='container__seccion-2 '>
         <div className=''>
