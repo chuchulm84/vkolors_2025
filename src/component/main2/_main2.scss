@@ -32,10 +32,6 @@
   margin: auto;
 }
 
-.container__seccion-2 h3 {
-  font-size: 1.78vw;
-}
-
 .imagen__main2 {
   max-width: 40vw;
   min-height: 200px;
@@ -59,8 +55,9 @@
   font-family: sans-serif;
   font-weight: 900;
   font-size: auto;
-  color: rgb(221, 83, 83);
+  color: rgb(199, 22, 22);
   filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+  font-size: 3.5rem;
 }
 
 // RESPONSIVE
@@ -79,6 +76,10 @@
     height: auto;
     margin: 0;
     padding: 0;
+
+    h3 {
+      font-size: 2.78vw;
+    }
   }
 
   .container__seccion-2 {
@@ -98,10 +99,6 @@
     text-align: justify;
     font-size: 3.44vw;
     margin: auto;
-  }
-
-  .container__seccion-2 h3 {
-    font-size: 2.78vw;
   }
 
   .imagen__main2 {
